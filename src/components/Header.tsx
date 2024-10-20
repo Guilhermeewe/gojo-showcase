@@ -1,4 +1,4 @@
-import Logo from '../../images/Logo.png'
+import Logo from '../../public/images/Logo.png'
 import Image from "next/image";
 
 function Header() {
@@ -13,8 +13,8 @@ function Header() {
                 <Image
                     src={Logo}
                     alt="Logo"
-                    layout='responsive'
                     className='h-16'
+                    layout='responsive'
                     loading="lazy" />
 
             </div>
