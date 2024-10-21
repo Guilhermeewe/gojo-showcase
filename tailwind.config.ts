@@ -25,6 +25,9 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-animated'),
+    require('tailwindcss-intersect')
+  ],
 };
 export default config;

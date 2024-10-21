@@ -6,8 +6,8 @@ function Header() {
         <div className="
         h-20
         relative flex items-center justify-between
-        shadow-2xl bg-zinc-200
-        text-black
+        shadow-2xl
+        text-black animate-fade-down animate-delay-500
         ">
             <div className="flex">
                 <Image

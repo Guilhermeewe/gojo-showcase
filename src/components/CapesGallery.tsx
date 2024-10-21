@@ -29,7 +29,7 @@ function CapesGallery() {
                             width={150}
                             height={150}
                             quality={100}
-                            className="rounded-t-2xl hover:scale-150 duration-500 rounded-b-2xl shadow-2xl"
+                            className="rounded-t-2xl hover:scale-150 duration-700 rounded-b-2xl shadow-2xl"
                         />
                     </div>
                 ))}

@@ -7,7 +7,7 @@ function MainText() {
                 <h1>
                     <TypewriterEffectSmooth words={[{
                         text: 'Satoru Gojo',
-                        className: 'dark:text-sky-500'
+                        className: 'dark:text-sky-500 delay-1000'
                     }]} />
                 </h1>
             </div>
