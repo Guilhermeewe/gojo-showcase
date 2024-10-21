@@ -15,19 +15,19 @@ function Main() {
                         alt="Sukuna Background"
                         quality={80}
                         placeholder="blur"
-                        className="rounded-full opacity-90 drop-shadow-2xl"
+                        className="rounded-full opacity-100 drop-shadow-2xl"
                     />
                 </div>
                 <MainText />
                 <div className="h-full backdrop-brightness-75 flex justify-center shadow-2xl">
                     <aside className="p-5 m-5 flex items-center rounded-full shadow-2xl animate-fadeinup">
-                        <Image src={GojoB} alt="GojoB" layout="responsive" quality={100} className="opacity-80"></Image>
+                        <Image src={GojoB} alt="GojoB" layout="responsive" quality={100} className="opacity-100"></Image>
                     </aside>
                     <About />
                 </div>
                 <div className="h-full backdrop-brightness-75 flex flex-row-reverse justify-center shadow-2xl ">
                     <aside className="p-5 m-5 flex items-center">
-                        <Image src={GojoC} alt="GojoB" quality={100} height={990} className="opacity-90 rounded-full shadow-2xl"></Image>
+                        <Image src={GojoC} alt="GojoB" quality={100} height={990} className="opacity-100 rounded-full shadow-2xl"></Image>
                     </aside>
                     <About />
                 </div>
