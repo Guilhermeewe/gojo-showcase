@@ -1,4 +1,6 @@
+'use client'
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 const images = [
     { src: '/images/capas/Capa1.webp', alt: '' },
@@ -22,16 +24,20 @@ function CapesGallery() {
             <h2 className="flex justify-center text-7xl text-sky-900 font-bold">Album Covers</h2>
             <div className="flex flex-wrap justify-center gap-5 p-10 m-5 shadow-2xl rounded-2xl bg-gradient-to-r from-slate-300 to-gray-300">
                 {images.map((image, index) => (
-                    <div key={index} className="m-4">
+                    <motion.div
+                        whileHover={{ scale: 1.25, opacity: 0.7 }}
+                        transition={{ duration: 0.3, type: 'spring', stiffness: 50, mass: 0.1 }}
+                        key={index}
+                        className="m-4">
                         <Image
                             src={image.src}
                             alt={image.alt + 1}
                             width={150}
                             height={150}
                             quality={100}
-                            className="rounded-t-2xl hover:scale-150 duration-700 rounded-b-2xl shadow-2xl"
+                            className="rounded-t-2xl rounded-b-2xl shadow-2xl"
                         />
-                    </div>
+                    </motion.div>
                 ))}
             </div>
 
