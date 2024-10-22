@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body
-        className={`${jostFont.variable}antialiased`}
+        className={`${jostFont.variable} antialiased`}
       >
         {children}
       </body>
